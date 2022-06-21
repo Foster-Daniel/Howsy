@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  background-color: #FEFEFE;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 10px;
+  margin: 0 auto;
+  width: 85%;
+}
+main .product {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #EDEDED;
+  border-radius: 5px;
+  box-shadow: #0004 2px 2px 10px 2px;
+  padding: 0.5em;
+}
+main .product .image {
+  height: 250px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  border: white 5px solid;
+}
+main .product .information {
+  margin-top: 0.5em;
+  width: 100%;
+}
+main .product button {
+  width: 100%;
+  padding: 0;
+  background-color: #bff5ce;
+  margin-top: 0.5em;
+  border: none;
+}
+
+header {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  padding: 1em;
+  margin-bottom: 1em;
+  background-color: #FFF;
+  box-shadow: #0004 2px 2px 5px 2px;
+}
+
+#basket {
+  width: 85%;
+  margin: 1em auto;
+}
+#basket h2, #basket h3 {
+  text-align: center;
+  margin-bottom: 0.5em;
+}
+#basket .basket-item {
+  display: grid;
+  grid-template-columns: 1fr 200px;
+  box-shadow: #0004 2px 2px 5px 2px;
+  background-color: #EDEDED;
+  border-radius: 5px;
+  width: 100%;
+  gap: 10px;
+  margin-bottom: 1em;
+}
+#basket .basket-item * {
+  text-align: left;
+}
+#basket .basket-item .button-add {
+  background-color: #8ef485;
+}
+#basket .basket-item .button-remove {
+  background-color: #f48585;
+}
+#basket .basket-item .buttons {
+  display: flex;
+  justify-content: center;
+}
+#basket .basket-item .buttons button {
+  border: none;
+  text-align: center;
+  font-size: large;
+  width: 50%;
+}
+
+/*# sourceMappingURL=Styles.css.map */

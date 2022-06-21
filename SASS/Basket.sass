@@ -1,0 +1,33 @@
+#basket
+    width: 85%
+    margin: 1em auto
+    h2, h3  
+        text-align: center
+        margin-bottom: .5em
+    .basket-item
+        display: grid
+        grid-template-columns: 1fr 200px
+        box-shadow: $smallShadow
+        background-color: $secondaryColour
+        border-radius: 5px
+        width: 100%
+        gap: 10px
+        margin-bottom: 1em
+        *
+            text-align: left
+
+        .button-add
+            background-color: #8ef485
+
+        .button-remove  
+            background-color: #f48585
+
+        .buttons
+            display: flex
+            justify-content: center
+            button
+                border: none
+                text-align: center
+                font-size: large
+                width: 50%
+                

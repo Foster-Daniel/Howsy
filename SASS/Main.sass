@@ -1,0 +1,39 @@
+body
+    background-color: $primaryColour
+main
+    display: grid
+    grid-template-columns: 1fr 1fr 1fr 1fr
+    gap: 10px
+
+    // This allows us to centre the main block.
+    margin: 0 auto
+    width: 85%
+
+    .product
+        // Set the display properties for the product div
+        display: flex
+        flex-direction: column
+        justify-content: space-between
+        align-items: center
+
+        background-color: $secondaryColour
+        border-radius: 5px
+        box-shadow: $regularShadow
+        padding: .5em
+
+        .image
+            height: 250px
+            width: 100%
+            background-repeat: no-repeat
+            background-size: cover
+            background-position: 50%
+            border: white 5px solid
+        .information
+            margin-top: .5em
+            width: 100%
+        button
+            width: 100%
+            padding: 0
+            background-color: #bff5ce
+            margin-top: .5em
+            border: none
